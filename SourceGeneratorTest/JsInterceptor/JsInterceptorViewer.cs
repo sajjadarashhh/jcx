@@ -1,9 +1,9 @@
-﻿using Microsoft.CodeAnalysis;
+﻿using JsCommunicationGenerator.JsInterceptor.JsInterceptorView;
+using Microsoft.CodeAnalysis;
 using Microsoft.CodeAnalysis.CSharp;
-using SourceGeneratorTest.JsInterceptor.JsInterceptorView;
 using System.Linq;
 
-namespace SourceGeneratorTest.NewFolder
+namespace JsCommunicationGenerator.JsInterceptor
 {
     [Generator]
     public class JsInterceptorViewer : ISourceGenerator

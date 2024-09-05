@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using JsInterceptor.Abstracts.Metadata;
 
-namespace SourceGeneratorTest.JsInterceptor.JsInterceptorView
+namespace JsCommunicationGenerator.JsInterceptor.JsInterceptorView
 {
     public class SyntaxReceiver : ISyntaxReceiver
     {

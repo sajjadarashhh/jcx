@@ -1,4 +1,4 @@
-﻿namespace SourceGeneratorTest.JsInterceptor.SourceParser
+﻿namespace JsCommunicationGenerator.JsInterceptor.SourceParser
 {
     public class JCXParse
     {
