@@ -1,8 +1,8 @@
-﻿using JsInterceptor.Abstracts.Metadata;
+﻿using TsInterceptor.Abstracts.Metadata;
 
 namespace TEst.Tests
 {
-    [JsType]
+    [TsType]
     public partial class CallConsoleLog
     {
         public string a()

@@ -18,7 +18,7 @@
 		<PackageReference Include="System.Threading.Tasks.Extensions" Version="4.5.4" PrivateAssets="all" />
 	</ItemGroup>
 	<ItemGroup>
-	  <ProjectReference Include="..\JsInterceptor.Abstracts\JsCommunication.Abstracts.csproj" />
+	  <ProjectReference Include="..\TsInterceptor.Abstracts\TsCommunication.Abstracts.csproj" />
 	</ItemGroup>
 
 </Project>

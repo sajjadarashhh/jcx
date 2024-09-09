@@ -2,9 +2,9 @@
 using Microsoft.CodeAnalysis;
 using System.Collections.Generic;
 using System.Linq;
-using JsInterceptor.Abstracts.Metadata;
+using TsInterceptor.Abstracts.Metadata;
 
-namespace JsCommunicationGenerator.JsInterceptor.JsInterceptorView
+namespace TsCommunicationGenerator.TsInterceptor.TsInterceptorView
 {
     public class SyntaxReceiver : ISyntaxReceiver
     {
@@ -13,7 +13,7 @@ namespace JsCommunicationGenerator.JsInterceptor.JsInterceptorView
         {
             if (syntaxNode is ClassDeclarationSyntax classDeclaration)
             {
-                if (classDeclaration.AttributeLists.Any(s => s.Attributes.Any(b => b.Name.ToFullString() == typeof(JsTypeAttribute).FullName)))
+                if (classDeclaration.AttributeLists.Any(s => s.Attributes.Any(b => b.Name.ToFullString() == typeof(TsTypeAttribute).FullName)))
                     Classes.Add(classDeclaration);
             }
         }

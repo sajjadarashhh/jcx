@@ -8,11 +8,11 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-	  <None Remove="Tests\CallConsoleLog.cs.jcx" />
+	  <None Remove="Tests\CallConsoleLog.cs.TCx" />
 	</ItemGroup>
 
 	<ItemGroup>
-	  <AdditionalFiles Include="Tests\CallConsoleLog.cs.jcx" />
+	  <AdditionalFiles Include="Tests\CallConsoleLog.cs.TCx" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -20,7 +20,7 @@
 		<PackageReference Include="Microsoft.CodeAnalysis.Analyzers" Version="3.3.4" PrivateAssets="all" />
 	</ItemGroup>
 	<ItemGroup> 
-		<ProjectReference Include="..\JsInterceptor.Abstracts\JsCommunication.Abstracts.csproj" /> 
-		<ProjectReference Include="..\SourceGeneratorTest\JsCommunicationGenerator.csproj" OutputItemType="Analyzer" ReferenceOutputAssembly="false" />
+		<ProjectReference Include="..\TsInterceptor.Abstracts\TsCommunication.Abstracts.csproj" /> 
+		<ProjectReference Include="..\SourceGeneratorTest\TsCommunicationGenerator.csproj" OutputItemType="Analyzer" ReferenceOutputAssembly="false" />
 	</ItemGroup>
 </Project>

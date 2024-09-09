@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace JsInterceptor.Abstracts.Metadata
+namespace TsInterceptor.Abstracts.Metadata
 {
-    public class JsTypeAttribute : Attribute
+    public class TsTypeAttribute : Attribute
     {
 
     }
