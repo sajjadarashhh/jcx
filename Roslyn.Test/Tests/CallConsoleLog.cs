@@ -1,13 +1,14 @@
-﻿using TsInterceptor.Abstracts.Metadata;
+﻿
+using TsInterceptor.Abstracts.Metadata;
 
-namespace TEst.Tests
+namespace Roslyn.Test.Tests
 {
     [TsType]
     public partial class CallConsoleLog
     {
         public string a()
         {
-            return "";
+            return "Hello World";
         }
     }
 }

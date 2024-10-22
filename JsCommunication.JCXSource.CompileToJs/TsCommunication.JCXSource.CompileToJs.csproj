@@ -5,7 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\TsCommunication.TCXSource\TsCommunication.TCXSource.csproj" />
+    <ProjectReference Include="..\JsCommunication.JCXSource\TsCommunication.TCXSource.csproj" />
   </ItemGroup>
+  
 
 </Project>

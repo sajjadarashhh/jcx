@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using System;
+using System.Linq;
 
 namespace TsCommunicationGenerator.TsInterceptor.SourceParser
 {
@@ -12,6 +13,7 @@ namespace TsCommunicationGenerator.TsInterceptor.SourceParser
 
         public string TsCode()
         {
+            throw new NotImplementedException();
         }
     }
 }

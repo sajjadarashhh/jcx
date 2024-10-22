@@ -1,6 +1,6 @@
-﻿using TEst.Tests;
+﻿using Roslyn.Test.Tests;
 
-namespace TEst
+namespace Roslyn.Test
 {
     public partial class Program
     {

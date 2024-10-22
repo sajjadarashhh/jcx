@@ -13,7 +13,12 @@ namespace TsCommunicationGenerator.TsInterceptor.TsInterceptorView
         {
             if (syntaxNode is ClassDeclarationSyntax classDeclaration)
             {
-                if (classDeclaration.AttributeLists.Any(s => s.Attributes.Any(b => b.Name.ToFullString() == typeof(TsTypeAttribute).FullName)))
+                if (classDeclaration.AttributeLists.Any(s => s.Attributes.Any(b =>
+                {
+                    var name = b.Name.GetText()+"Attribute";
+                    return name.ToString() == typeof(TsTypeAttribute).Name;
+                }
+                )))
                     Classes.Add(classDeclaration);
             }
         }

@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35027.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TsCommunicationGenerator", "SourceGeneratorTest\TsCommunicationGenerator.csproj", "{FEAB140A-2DA2-4FBD-B251-7C0684084C03}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TEst", "TEst\TEst.csproj", "{C5AC53E2-38C7-4CB4-BAFE-3C428AE085B3}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TsCommunication.Abstracts", "JsInterceptor.Abstracts\TsCommunication.Abstracts.csproj", "{401AC981-3F27-47C4-B5AA-1A96F1C73B1D}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TsCommunication.TCXSource", "JsCommunication.JCXSource\TsCommunication.TCXSource.csproj", "{8C21FB42-D26F-46CF-995C-3195C489039A}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TsCommunication.JCXSource.CompileToJs", "JsCommunication.JCXSource.CompileToJs\TsCommunication.JCXSource.CompileToJs.csproj", "{D669FE3A-1079-4957-BC22-EABF5579EDCC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TsCommunicationGenerator", "JsCommunication\TsCommunicationGenerator.csproj", "{766666FA-7A7F-4C3F-8F35-9A64AAC14CCB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roslyn.Test", "Roslyn.Test\Roslyn.Test.csproj", "{F207B6DB-D130-41A6-BE38-4C289D602153}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,14 +19,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{FEAB140A-2DA2-4FBD-B251-7C0684084C03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FEAB140A-2DA2-4FBD-B251-7C0684084C03}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FEAB140A-2DA2-4FBD-B251-7C0684084C03}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FEAB140A-2DA2-4FBD-B251-7C0684084C03}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C5AC53E2-38C7-4CB4-BAFE-3C428AE085B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C5AC53E2-38C7-4CB4-BAFE-3C428AE085B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C5AC53E2-38C7-4CB4-BAFE-3C428AE085B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C5AC53E2-38C7-4CB4-BAFE-3C428AE085B3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{401AC981-3F27-47C4-B5AA-1A96F1C73B1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{401AC981-3F27-47C4-B5AA-1A96F1C73B1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{401AC981-3F27-47C4-B5AA-1A96F1C73B1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -39,6 +31,14 @@ Global
 		{D669FE3A-1079-4957-BC22-EABF5579EDCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D669FE3A-1079-4957-BC22-EABF5579EDCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D669FE3A-1079-4957-BC22-EABF5579EDCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{766666FA-7A7F-4C3F-8F35-9A64AAC14CCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{766666FA-7A7F-4C3F-8F35-9A64AAC14CCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{766666FA-7A7F-4C3F-8F35-9A64AAC14CCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{766666FA-7A7F-4C3F-8F35-9A64AAC14CCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F207B6DB-D130-41A6-BE38-4C289D602153}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F207B6DB-D130-41A6-BE38-4C289D602153}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F207B6DB-D130-41A6-BE38-4C289D602153}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F207B6DB-D130-41A6-BE38-4C289D602153}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

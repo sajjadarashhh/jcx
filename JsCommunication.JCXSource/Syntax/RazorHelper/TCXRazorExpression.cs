@@ -6,5 +6,7 @@ namespace TsCommunication.TCXSource.Syntax.RazorHelper
     {
         public string Expression { get; set; }
         public List<TCXExpression> InnerExpression { get; set; }
+
+        public override TCXBlockLanguage Lang => TCXBlockLanguage.Razor;
     }
 }

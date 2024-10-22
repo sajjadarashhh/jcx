@@ -1,4 +1,6 @@
-﻿namespace TsCommunication.TCXSource.Syntax
+﻿using System.Collections.Generic;
+
+namespace TsCommunication.TCXSource.Syntax
 {
     public enum TCXBlockLanguage
     {
@@ -8,7 +10,7 @@
     }
     public abstract class TCXExpression
     {
-        public TCXBlockLanguage Lang { get; set; }
-        public TCXExpression Body { get; set; }
+        public abstract TCXBlockLanguage Lang { get; }
+        public List<TCXExpression> Body { get; set; }
     }
 }
